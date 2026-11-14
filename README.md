@@ -46,15 +46,6 @@ Exception
     └── LimiteDiarioExcedidoError
 ```
 
-| Excepción | Código | Cuándo ocurre |
-|---|---|---|
-| `BancoError` | `BANCO_ERROR` por defecto | Error bancario general; también se usa con códigos específicos para cuenta duplicada o datos incompletos. |
-| `SaldoInsuficienteError` | `SALDO_INSUFICIENTE` | El saldo no alcanza para retirar. |
-| `CuentaNoEncontradaError` | `CUENTA_NO_ENCONTRADA` | No existe la cuenta indicada. |
-| `CuentaBloqueadaError` | `CUENTA_BLOQUEADA` | Se intenta operar con una cuenta bloqueada. |
-| `MontoInvalidoError` | `MONTO_INVALIDO` | El monto es inválido, cero o negativo. |
-| `LimiteDiarioExcedidoError` | `LIMITE_EXCEDIDO` | El retiro supera el límite diario configurado. |
-
 ## Manejo de errores
 
 - Se usa `raise` para lanzar errores propios del banco.
