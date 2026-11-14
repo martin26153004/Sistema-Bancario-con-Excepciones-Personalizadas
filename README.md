@@ -65,23 +65,6 @@ Exception
 - Los errores del menú se registran con `logging` en `banco_errores.log`.
 - Las clases y funciones incluyen docstrings.
 
-## Requisitos
-
-- Python 3.10 o superior (sin dependencias externas).
-
-## Ejecución
-
-Abre una terminal en la carpeta del proyecto y ejecuta:
-
-```bash
-python main.py
-```
-
-Para ejecutar las pruebas opcionales:
-
-```bash
-python prueba_sistema.py
-```
 
 ## Ejemplo de uso
 
