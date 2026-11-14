@@ -1,0 +1,8 @@
+2026-11-14 11:56:19,691 | ERROR | Código=CUENTA_NO_ENCONTRADA | Mensaje=La cuenta 123654789 no existe
+2026-11-14 11:57:44,029 | ERROR | Código=CUENTA_BLOQUEADA | Mensaje=La cuenta 123456789 está bloqueada
+2026-11-14 11:58:28,270 | ERROR | Código=SALDO_INSUFICIENTE | Mensaje=Saldo insuficiente: tienes $4000.00, necesitas $5000.00 (faltan $1000.00)
+2026-11-14 12:02:38,941 | ERROR | Código=MONTO_INVALIDO | Mensaje=Monto inválido: -100. Debe ser positivo
+2026-11-14 12:05:28,422 | ERROR | Código=LIMITE_EXCEDIDO | Mensaje=Límite diario excedido: límite $10000.00, retirado hoy $1000.00, solicitado $11000.00
+2026-11-14 12:25:00,670 | ERROR | Código=CUENTA_NO_ENCONTRADA | Mensaje=La cuenta 12000 no existe
+2026-11-14 12:25:50,570 | ERROR | Código=LIMITE_EXCEDIDO | Mensaje=Límite diario excedido: límite $10000.00, retirado hoy $1000.00, solicitado $11000.00
+2026-11-14 12:26:10,167 | ERROR | Código=LIMITE_EXCEDIDO | Mensaje=Límite diario excedido: límite $10000.00, retirado hoy $1000.00, solicitado $10000.00
